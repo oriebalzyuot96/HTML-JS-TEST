@@ -37,19 +37,19 @@
     border-radius: 5px;	
     color: #fff;	
   }	
-  .score .player span:first-child{ left: 31% }	
-  .score .computer span:first-child{ left: 7% }	
-  .move{	
+  .play .player span:first-child{ left: 31% }	
+  .play .computer span:first-child{ left: 7% }	
+  .play{	
     display: flex;	
     justify-content: center;	
     margin: 80px;	
   }	
-  .computer-move{	
+  .computer-play{	
     position: absolute;	
     right: 41%;	
     transform: rotateX(-145deg);;	
   }	
-  .player-move{	
+  .player-play{	
     position: absolute;	
     left: 41%;	
     transform: rotate(190deg);	
